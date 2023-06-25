@@ -1,0 +1,9 @@
+>>> from qsort import quicksort
+>>> quicksort([])
+[]
+>>> quicksort([3])
+[3]
+>>> quicksort([5, 4, 3, 2, 1])
+[1, 2, 3, 4, 5]
+>>> quicksort([5, 5, 4, 4, 3, 3, 2, 2, 1, 1])
+[1, 1, 2, 2, 3, 3, 4, 4, 5, 5]

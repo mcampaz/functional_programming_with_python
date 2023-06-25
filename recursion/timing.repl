@@ -1,0 +1,19 @@
+>>> from compare_factorial import recursive, loop, functional
+>>> recursive(4)
+24
+>>> loop(4)
+24
+>>> functional(4)
+24
+>>> from timeit import timeit
+>>> timeit("recursive(4)", "from __main__ import recursive", number=100000)
+0.021121986908838153
+>>> timeit("loop(4)", "from __main__ import loop", number=100000)
+0.0254751518368721
+>>> timeit("functional(4)", "from __main__ import functional", number=100000)
+0.047130679013207555
+>>> from math import factorial
+>>> factorial(4)
+24
+>>> timeit("factorial(4)", "from math import factorial", number=100000)
+0.003051480045542121

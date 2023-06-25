@@ -1,0 +1,28 @@
+>>> quicksort([5, 4, 3, 2, 1])
+quicksort([5, 4, 3, 2, 1])
+  pivot: 3
+  lists:
+     smaller: [2, 1]
+        same: [3]
+      larger: [5, 4]
+quicksort([2, 1])
+  pivot: 1
+  lists:
+     smaller: []
+        same: [1]
+      larger: [2]
+quicksort([])
+  returning []
+quicksort([2])
+  returning [2]
+quicksort([5, 4])
+  pivot: 4
+  lists:
+     smaller: []
+        same: [4]
+      larger: [5]
+quicksort([])
+  returning []
+quicksort([5])
+  returning [5]
+[1, 2, 3, 4, 5]

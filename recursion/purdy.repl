@@ -1,0 +1,11 @@
+>>> from data import purdy_tree
+>>> len(purdy_tree)
+5
+>>> for i, item in enumerate(purdy_tree):
+...     print(i, item)
+...
+0 actions
+1 ('animation', ['cell', 'manager', 'steps', ('color', ['ansico', 'htmlco', 'plainco', 'rtfco', 'urwidco'])])
+2 lexers
+3 parser
+4 ui
