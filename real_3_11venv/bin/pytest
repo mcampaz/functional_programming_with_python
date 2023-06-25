@@ -1,0 +1,8 @@
+#!/Users/mariocampaz/_kick_training/ML_intro/real_python/functional_programming_with_python/real_3_11venv/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pytest import console_main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(console_main())
